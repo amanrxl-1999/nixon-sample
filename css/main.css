@@ -4,6 +4,20 @@
     width:100%;
 }
 
+.header li{
+    margin-right: 15px;
+    list-style: none;
+    font-size: 11px;
+    color: white;
+    
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
 .main-head{
     background:whitesmoke;
     height:150px;
