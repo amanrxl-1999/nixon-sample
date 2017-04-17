@@ -47,29 +47,53 @@ img{
     padding: 30px 60px;
 }
 
-.main-head .container li{
+.main-head .container> li{
     display: inline-block;
-    margin-right: 15px;
+    margin-right: 93px;
     color: black;
     text-transform: uppercase;
+    list-style: none;
 }
+
 
 .main-head img{
     position: relative;
-    top: 30px;
+    top: 10px; 
 }
 
-
-.options{
+.main-head .options {
+    display: inline-block;
+    list-style: none;
+    margin-left: 30px;
     text-align: center;
-
+    position: relative;
+    top: 38px;
 }
+
+.main-head .options> li{
+    display: inline-block;
+    margin-right: 118px;
+}
+
+.main-head .options>li>a{
+    color: black;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    position: relative;
+    left: 800;
+    max-width: 197px;
+    bottom: 24px;
+}
+
 
 /*---First Block image---*/
 
 .nixon-image{
     height:570px;
     overflow: hidden;
+    margin-bottom: 30px;
 }
 
 .w100{
