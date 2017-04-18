@@ -66,6 +66,7 @@ img{
 }
 
 
+
 .main-head img{
     position: relative;
     top: 10px; 
@@ -177,7 +178,7 @@ img{
 .first-row{
     background: #f7f8f9;
     background-size: cover;
-    margin-bottom:30px;
+    margin-bottom:60px;
 }
 
 .first-row .container{
@@ -203,3 +204,14 @@ img{
     border: none;
 }
 
+/*---second section---*/
+
+.second-section{
+    background:white;
+}
+
+
+.second-section .container{
+    text-align:center;
+    padding: 30
+}
