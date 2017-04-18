@@ -5,8 +5,14 @@
 }
 
 .wrapper{
-    font-family: 'Montserrat',sans-serif;
+    font-family:sans-serif;
 }
+
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
 
 img{
     vertical-align: middle;
@@ -113,7 +119,6 @@ img{
 
 .first-section .container{
     text-align: center;
-    margin-bottom: 50px;
 
 }
 
@@ -140,6 +145,7 @@ img{
     text-transform: uppercase;
     letter-spacing: 1.4px;
     font-weight: 300;
+    margin-bottom: 58px;
     
 }
 
@@ -147,6 +153,7 @@ img{
     color: white;
     text-decoration: none;
 }
+
 
 
 
@@ -164,3 +171,35 @@ img{
 .btn:hover{
     text-decoration: none;
 }
+
+/*---first-row---*/
+
+.first-row{
+    background: #f7f8f9;
+    background-size: cover;
+    margin-bottom:30px;
+}
+
+.first-row .container{
+    width:1053px;
+    text-align: center;
+}
+
+.first-row h5{
+    color: #acb1b4;
+}
+
+.first-row .under-picture{
+    font-size: 12px;
+    margin-top: 6px;
+    text-transform: uppercase;
+    color: #1e1e1e;
+    font-family: sans-serif;
+    letter-spacing: .25px;
+    font-weight: 200;
+}
+
+.thumbnail{
+    border: none;
+}
+
