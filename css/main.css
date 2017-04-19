@@ -186,6 +186,10 @@ img{
     text-align: center;
 }
 
+.first-row .container img:hover{
+    opacity: .7;
+}
+
 .first-row h5{
     color: #acb1b4;
 }
@@ -279,6 +283,7 @@ img{
     color: #acb1b4;
     font-weight: 400;
     font-size: 11px;
+    text-align: center;
 }
 
 .main-split .under-picture{
@@ -287,4 +292,25 @@ img{
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
+}
+
+
+/*---third row---*/
+
+.third-row{
+    background:#f7f8f9;
+}
+
+.third-row .container{
+    background: #f7f8f9;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.third-row .container .watch{
+    height: 528px;
+    width: 928px;
+    position: relative;
+    left: 281px;
+    background: #f7f8f9;
 }
