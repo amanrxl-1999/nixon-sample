@@ -336,5 +336,46 @@ img{
     bottom: 40px;
 }
 
+/*---third section---*/
+
+.third-section .container{
+    text-align: center;
+}
+
+.third-section h4{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size:11px;
+    font-weight: 500;
+    color: rgb(172,177,180);
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.third-section h2{
+    font-size: 24px;
+    letter-spacing: .007em;
+    line-height: 24px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+.third-section p{
+    font-size: 12px;
+    color: rgb(68,69,71);
+    margin-top: 10px;
+    padding-left: 538px;
+    padding-right: 520px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+
+
+
 
 
