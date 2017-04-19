@@ -315,3 +315,26 @@ img{
     background: #f7f8f9;
     margin-bottom: 60px;
 }
+
+.third-row h5{
+    text-align: center;
+    color: #acb1b4;
+    font-weight: 400;
+    font-size: 11px;
+    position: relative;
+    bottom: 38px;
+}
+
+.third-row .under-picture{
+    text-align: center;
+    color: #1e1e1e;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    position: relative;
+    bottom: 40px;
+}
+
+
+
