@@ -459,6 +459,13 @@ img{
     text-align: center;
 }
 
+.five-row .container img{
+    padding: 2px 8px;
+    width: 225px;
+    height: 161px;
+    margin-bottom: 30px;
+}       
+
 .five-row .container img:hover{
     transform: scale(1.06);
 }
@@ -470,6 +477,10 @@ img{
     text-transform: uppercase;
     font-family:sans-serif;
     letter-spacing: .30px;
+}
+
+.five-row h4:hover{
+    transform: scale(1.06);
 }
 
 .small-text{
@@ -486,3 +497,6 @@ img{
 .small-text:hover{
     transform: scale(1.06);
 }
+
+/*---preFooter---*/
+
