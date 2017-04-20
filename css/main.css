@@ -417,4 +417,72 @@ img{
     text-decoration: none;
 }
 
+/*---fourthSection---*/
 
+.fourth-section{
+    background: #f7f8f9
+}
+
+.fourth-section .container{
+    text-align: center;
+    padding-top: 37px;
+}
+
+.fourth-section h2{
+    font-size: 24px;
+    letter-spacing: .007em;
+    line-height: 24px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.fourth-section p{
+    font-size: 13px;
+    color: #acb1b4;
+    margin-top: 10px;
+    padding-left: 542px;
+    padding-right: 545px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+/*---fifthRow---*/
+
+.five-row{
+    background: #f7f8f9;
+}
+
+.five-row .container{
+    padding:30px 60px;
+    text-align: center;
+}
+
+.five-row .container img:hover{
+    transform: scale(1.06);
+}
+
+.five-row h4{
+    color: #acb1b4;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family:sans-serif;
+    letter-spacing: .30px;
+}
+
+.small-text{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .25px;
+    line-height: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.small-text:hover{
+    transform: scale(1.06);
+}
