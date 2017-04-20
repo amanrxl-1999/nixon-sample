@@ -505,6 +505,7 @@ img{
     background: #f7f8f9;
     border-top: 1px solid #d1d4d6;
     border-bottom: 1px solid #d1d4d6;
+    margin-bottom: 20px;
 }
 
 .pre-footer .container{
@@ -539,4 +540,78 @@ img{
 .pre-footer .btn:hover{
     text-decoration: none;
 }
+
+/*---footer section---*/
+
+.foot-head{
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 17px;
+    letter-spacing: .5px;
+    padding-top: 30px;
+    position: relative;
+    left: 38px;
+}
+
+
+.footer{
+    background: white;
+}
+
+.footer .container{
+    text-align: left;
+}
+
+.footer .text{
+    text-align: left;
+    list-style: none;
+    font-size: 11px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 500px;
+    margin-bottom: 60px;
+}
+
+
+.footer li{
+    margin-top: 5px;
+    color: #1e1e1e;
+    font-weight: 500px;
+}
+
+
+.footer li:hover{
+    text-decoration: none;
+    color: #acb1b4;
+    cursor: pointer;
+}
+
+/*---mainFooter---*/
+
+.foot-body{
+    background-image: url(http://demandware.edgesuite.net/aayf_prd/on/demandware.static/-/Library-Sites-Nixon/default/dw10a90908/global/JON_ROSE-TUNNEL_footer_1280x482.jpg);
+    background-size: cover;
+    padding-top: 30px;
+    height: 482px;
+}
+
+.foot-body .container{
+    text-align: center;
+}
+
+.foot-body .foot-text{
+    width: 62%;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 400;
+    min-width: 320px;
+    text-align: center;
+    position: relative;
+    left: 192px;
+    top: 135px;
+    padding: 0px 30;
+}
+
 
