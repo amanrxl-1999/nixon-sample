@@ -640,7 +640,7 @@ img{
 
 .brown-row .bold-text{
     position: relative;
-    top: 40px;
+    top: 167px;
 }
 
 .bold-text{
@@ -654,10 +654,13 @@ img{
 
 /*---first-bracket---*/
 
-.breadcrumbs{
+.breadcrumb{
     background-color: #f7f8f9;
     border-top: 1px solid #d1d4d6;
     border-bottom: 1px solid #d1d4d6;
+}
+
+.breadcrumb .container{
     font-size: 12px;
     line-height: 12px;
     margin: 0 auto;
@@ -665,7 +668,52 @@ img{
     text-align: center;
 }
 
+.breadcrumb .link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #1e1e1e;
+    margin-right: 20px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    
+}
+
+.breadcrumb a:hover{
+        color: #acb1b4;
+        text-decoration: none;
+}
 
 
+/*---sortBy---*/
+
+.sort-by{
+        border-bottom: 1px solid #d1d4d6;
+}
+
+.sort-by .container{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sort-by .btn{
+    color: grey;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: white;
+}
+
+.sort-by .products{
+    color: #acb1b4;
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-size: 11px;
+}
+
+.dropdown, .dropup {
+    position: relative;
+    left: 600;
+    bottom: 28px;
+}
 
 
