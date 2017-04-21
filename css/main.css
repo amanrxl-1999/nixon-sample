@@ -688,6 +688,7 @@ img{
 
 .sort-by{
         border-bottom: 1px solid #d1d4d6;
+        height: 34px;
 }
 
 .sort-by .container{
@@ -698,9 +699,15 @@ img{
 
 .sort-by .btn{
     color: grey;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 16px;
+    padding-right: 36px;
     background: white;
+    border: 0.5px solid lightgrey;
+    height: 34px;
+    width: 177px;
+    text-align: left;
+
+    
 }
 
 .sort-by .products{
@@ -712,7 +719,7 @@ img{
 
 .dropdown, .dropup {
     position: relative;
-    left: 600;
+    left: 482px;
     bottom: 28px;
 }
 
@@ -723,3 +730,27 @@ img{
     background: white;
 }
 
+
+.new-split .container{
+    margin-top: 40px;
+    font-family: sans-serif;
+}
+
+
+.new-split .new-head{
+    display: block;
+    font-size: 16px;
+    line-height: 59px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+
+.new-split .list-title{
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 12px;
+
+}
