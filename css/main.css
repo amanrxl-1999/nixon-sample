@@ -615,3 +615,57 @@ img{
 }
 
 
+/*---2ndPage---*/
+
+
+.brown-row .container{
+    height: 410;
+    text-align: center;s
+}
+
+.brown-row .nixon{
+        background-size: cover;
+        height: 410px;
+        background-position-x: center;
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-size: cover;
+        background-image: url(http://demandware.edgesuite.net/aayf_prd/on/demandware.static/-/Library-Sites-Nixon/default/dwc42ae853/17-2/banners/1/banner-cruiser-2017-0403.jpg);
+}
+
+.brown-row .text-back{
+    background: #f7f8f9;
+    height: 410px;
+}
+
+.brown-row .bold-text{
+    position: relative;
+    top: 40px;
+}
+
+.bold-text{
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/*---first-bracket---*/
+
+.breadcrumbs{
+    background-color: #f7f8f9;
+    border-top: 1px solid #d1d4d6;
+    border-bottom: 1px solid #d1d4d6;
+    font-size: 12px;
+    line-height: 12px;
+    margin: 0 auto;
+    padding: 14px 2px;
+    text-align: center;
+}
+
+
+
+
+
