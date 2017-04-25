@@ -809,7 +809,8 @@ img{
     color: black;
 }
  
-.new-split .list a:hover{
+ 
+.list li> a:hover{
     color: #acb1b4;
     text-decoration: none;
 }
@@ -883,3 +884,38 @@ img{
     background: black;
 }
 
+/*---sidePicture---*/
+
+.small-picture{
+    width: 160;
+    height: 100px;
+}
+
+.small-picture img{
+    width: 204px;
+    height: 229px;
+    float: right;
+    position: relative;
+    left: 1226px;
+    bottom: 403px;
+}
+
+
+.small-picture .small-description{
+    color: #1e1e1e;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 18px;
+    position: relative;
+    left: 1216px;
+    bottom: 374px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.small-picture a:hover{
+    color: #acb1b4;
+    text-decoration: none;
+    cursor: pointer;
+}
