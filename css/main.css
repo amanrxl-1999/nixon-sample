@@ -754,3 +754,30 @@ img{
     margin-bottom: 12px;
 
 }
+
+.new-split .list{
+    list-style: none;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.new-split .list >li{
+    text-decoration: none;
+    margin-top:5px;
+    padding-top: 14px;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 11px;
+    letter-spacing: .5px;
+    position: relative;
+    right: 30;
+}
+
+.new-split .list a{
+    color: black;
+}
+
+.new-split .list a:hover{
+    color: #acb1b4;
+    text-decoration: none;
+}
