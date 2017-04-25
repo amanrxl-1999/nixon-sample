@@ -776,8 +776,10 @@ img{
 .new-split .list a{
     color: black;
 }
-
+ 
 .new-split .list a:hover{
     color: #acb1b4;
     text-decoration: none;
 }
+
+/*---carousel---*/
