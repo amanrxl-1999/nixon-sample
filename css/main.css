@@ -724,16 +724,38 @@ img{
 }
 
 
+.head-title{
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: relative;
+    left: 380px;
+    top: 48px;
+}
+
 /*---NewSplit---*/
 
 .new-split{
     background: white;
+    float: left;
 }
+
 
 
 .new-split .container{
     margin-top: 40px;
     font-family: sans-serif;
+    width: 450px;
+    position: relative;
+    left: 266px;
+}
+
+
+
+.new-split .container .col-md-3{
+    width: 68%;
 }
 
 
@@ -744,21 +766,31 @@ img{
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .5px;
+    margin-bottom: 16px;
 }
 
 
 .new-split .list-title{
-    font-size: 11px;
+    font-size: 15px;
     letter-spacing: 1px;
     font-weight: 600;
     margin-bottom: 12px;
+    position: relative;
+    left: 10;
+}
 
+.new-split .list-title:hover{
+    color: #acb1b4;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .new-split .list{
     list-style: none;
     text-align: left;
     margin-top: 10px;
+    position: relative;
+    left: 10;
 }
 
 .new-split .list >li{
@@ -783,3 +815,71 @@ img{
 }
 
 /*---carousel---*/
+
+.watch-slide{
+    margin-left: 10px;
+    position: relative;
+    top: 85px;
+    left: 30;
+}
+
+
+.watch-slide .container{
+    width: 400px;
+    height: 200px;
+}
+
+#myCarousel{
+    height: 100px;
+}
+
+.small{
+    text-align: center;
+    color: #9b9e9f;
+    margin-bottom: 5px;
+    font-size: 11px;
+    letter-spacing: .5px;
+    line-height: 16px;
+    font-family: sans-serif;
+}
+
+.carousel-caption {
+    position: relative;
+    bottom: 13px;
+    left: -7px;
+}
+
+.carousel-caption h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: black;
+}
+
+.carousel-caption .product-description{
+    margin: 23px 40px 0 40px;
+    font-size: 11px;
+    color: #9b9e9f;
+    letter-spacing: .4px;
+    line-height: 2;
+}
+
+.carousel-control{
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,0);
+    filter: alpha(opacity=50);
+    opacity: .5;
+    position: relative;
+    bottom: 30;
+}
+
+.carousel-indicators{
+    position: relative;
+    top: 549px;
+    background: black;
+}
+
