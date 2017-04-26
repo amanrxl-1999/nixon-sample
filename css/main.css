@@ -92,11 +92,13 @@ img{
 
 .form-group {
     margin-bottom: 15px;
-    position: relative;
-    left: 800;
+    display: inline-block;
     max-width: 197px;
-    bottom: 24px;
+    position: relative;
+    bottom: -36px;
 }
+
+
 
 
 /*---First Block image---*/
@@ -377,7 +379,9 @@ img{
 
 .fourth-row .container{
     padding: 30px 96px;
+
 }
+
 
 .fourth-row .last-picture{
     width: 100%;
@@ -385,8 +389,8 @@ img{
 }
 
 #last{
-    width: 212px;
-    height: 214px;
+    width: 293px;
+    height: 301px;
 }
 
 .fourth-row a{
@@ -811,11 +815,7 @@ img{
     color: black;
 }
  
- 
-.list li> a:hover{
-    color: #acb1b4;
-    text-decoration: none;
-}
+
 
 /*---carousel---*/
 
@@ -882,9 +882,19 @@ img{
 
 .carousel-indicators{
     position: relative;
-    top: 549px;
-    background: black;
+    top: 588px;
+    
 }
+
+.carousel-indicators li{
+    background: lightblue;
+}
+
+.carousel-indicators .active{
+    background: lightseagreen;
+}
+
+
 
 /*---sidePicture---*/
 
@@ -930,11 +940,61 @@ img{
     max-width:960px;
 }
 
+.red .new-head{
+    display: block;
+    margin-bottom: 20;
+    font-size: 16px;
+    line-height: 59px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-family: sans-serif;
+}
+
+.red .list-title{
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-family: sans-serif;
+    display: block;
+}
+.red .list li{
+    list-style: none;
+    color: black;
+    font-size: 11px;
+    letter-spacing: .5px;
+    font-family: sans-serif;
+    font-weight: 400px;
+    margin-top: 34px;
+
+}
+
+.red .list a{
+    color: black;
+    line-height: 1.5px;
+    font-size: 11px;
+    letter-spacing: .5px;
+    font-family: sans-serif;
+    font-weight: 400px;
+}
+
+.red .list a:hover{
+    color: #acb1b4;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .cruiser-title{
     text-align: center;
     font-size: 24px;
     margin-top:20px;
-    margin-bottom:10px;
+    display: inline-block;
+    margin-bottom: 24px;
+    position: relative;
+    top: 15px;
+    font-weight: 600;
+    left: 200;
 }
 
 .container{
@@ -960,10 +1020,69 @@ img{
     height:100px;
     width: 33.333%;
     display: inline-block;
+    font-family: sans-serif;
+}
+
+.yslide img{
+    display: block;
+    position: relative;
+    width: 159px;
+    height: 229px;
+    left: 83px;
+}
+
+.yslide .sview{
+    color: #1e1e1e;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 18px;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+    left: 68px;
+    top: 12px;
+}
+
+.yslide .sview:hover{
+    color: #acb1b4;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.yslide .price-text{
+    text-align: center;
+    color: #9b9e9f;
+    font-size: 11px;
+    letter-spacing: .5px;
+    line-height: 16px;
+    display: block;
+    margin-top: 20;
+    position: relative;
+    left: 61px;
 }
 
 .carousel-control-left{
     height: 100px;
     width: 200px;
     background-color: blue;
+}
+
+.box .carousel-indicators ol{
+    background: red;
+}
+
+.carousel-caption > p{
+    text-align: center;
+    color: #9b9e9f;
+    font-size: 11px;
+    letter-spacing: .5px;
+    line-height: 16px;
+}
+
+/*---page4---*/
+
+.number-text{
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    font-family: sans-serif;
 }
