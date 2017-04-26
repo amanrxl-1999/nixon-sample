@@ -1,10 +1,15 @@
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>Nixon</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
+
 <body>
     <div class="wrapper">
         <div class="header">
@@ -22,18 +27,17 @@
         </div>
         <div class="main-head">
             <div class="container w100">
-                <img src="image/logo.png"/>
-                <ul  class="options">
+                <img src="image/logo.png" />
+                <ul class="options">
                     <li><a href="#">Mens Watches</a></li>
                     <li><a href="#">Womens Watches</a></li>
                     <li><a href="#">Bags&More</a></li>
                     <li><a href="#">Smart</a></li>
-                <ul>
-                    <div class="form-group search">
-                        <input class="form-control" type="text" placeholder="Search for watches..."/>
-                    </div>
+                </ul>
+                <div class="form-group search">
+                    <input class="form-control" type="text" placeholder="Search for watches..." />
+                </div>
             </div>
-
         </div>
         <div class="brown-row">
             <div class="container w100">
@@ -56,27 +60,30 @@
             </div>
         </div>
         <div class="sort-by">
-            <div class="container">
+            <div class="container container-dropdown">
                 <span class="products">7 Products</span>
                 <div class="dropdown">
-                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="true">
                 Sort By :
                 <span class="caret"></span>
                 </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-                </ul>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <span class="head-title">CRUISER</span>
-        <div class="new-split">
+
+        <div class="red">
             <div class="container">
-                    <div class="col-md-3 left">
+                <div class="row">
+                    <div class="col-md-4 mt20">
+
                         <span class="new-head">Categories</span>
                         <span class="list-title">Men's Collection</span>
                         <ul class="list">
@@ -93,84 +100,74 @@
                             <li><a href="#">Dark Energy</a></li>
                             <li><a href="#">Speedster II</a></li>
                         </ul>
-                    </div>
-            </div>
-        </div>
-        <div class="watch-slide">
-            <div class="container">
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                        <li data-target="#myCarousel" data-slide-to="3"></li>
-                        <li data-target="#myCarousel" data-slide-to="4"></li>
-                    </ol>
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <img src="image/car1.png"/>
-                            <div class="carousel-caption">
-                                <h3>Sentry Leather, 42mm</h3>
-                                <span class="small">$150.00 / 28 Colors</span>
-                                <div class="product-description">
-                                    Nixing the status quo of what you may expect when
-                                     it comes to classically good-looking timepieces, 
-                                     the Sentry leather has entered the room and raised the bar.
-                                </div>
 
+                    </div>
+                    <div class="col-md-8">
+                        <div class="cruiser-title">
+                            CRUISER
+                        </div>
+                        <div class="box">
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                                </ol>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner" role="listbox">
+
+                                    <div class="item active">
+                                        <img src="image/car1.png" alt="Chania" width="460" height="345">
+                                        <div class="carousel-caption">
+                                            <h3>Chania</h3>
+                                            <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="item ">
+                                        <img src="image/car2.png" alt="Chania" width="460" height="345">
+                                        <div class="carousel-caption">
+                                            <h3>Chania</h3>
+                                            <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="item ">
+                                        <img src="image/car3.png" alt="Flower" width="460" height="345">
+                                        <div class="carousel-caption">
+                                            <h3>Flowers</h3>
+                                            <p>Beatiful flowers in Kolymbari, Crete.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+                                        <img src="image/car4.png" alt="Flower" width="460" height="345">
+                                        <div class="carousel-caption">
+                                            <h3>Flowers</h3>
+                                            <p>Beatiful flowers in Kolymbari, Crete.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
-                        <div class="item">
-                            <img src="image/car2.png"/>
-                            <div class="carousel-caption">
-                                <h3>Sentry Leather, 42mm</h3>
-                                <span class="small">$150.00 / 28 Colors</span>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="image/car3.png"/>
-                            <div class="carousel-caption">
-                                <h3>Sentry Leather, 42mm</h3>
-                                <span class="small">$150.00 / 28 Colors</span>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="image/car4.png"/>
-                            <div class="carousel-caption">
-                                <h3>Sentry Leather, 42mm</h3>
-                                <span class="small">$150.00 / 28 Colors</span>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="image/car5.png"/>
-                            <div class="carousel-caption">
-                                <h3>Sentry Leather, 42mm</h3>
-                                <span class="small">$150.00 / 28 Colors</span>
-                            </div>
-                        </div>
+                        <div class="yslide">s</div>
+
                     </div>
                 </div>
-                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                </a>
             </div>
-        </div>
-        <div class="small-picture">
-            <img src="image/car1.png"/>
-            <a class="small-description">48-20 Chrono Leather</a>
-        </div>
 
+        </div>
 
 
 
 
 
     </div>
-    
+
 </body>
+
 </html>
