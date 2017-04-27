@@ -1,3 +1,7 @@
+*:before, *:after{
+    box-sizing: border-box;
+}
+
 .header{
     height:50px;
     background:black;
@@ -1086,3 +1090,138 @@ img{
     letter-spacing: 1.5px;
     font-family: sans-serif;
 }
+
+.check-out{
+    position: relative;
+    margin: 0 auto;
+    max-width: 960px;
+    display: block;
+}
+
+.check-out .product-number{
+    color: #9b9e9f;
+    font-size: 11px;
+    line-height: 19px;
+    font-family: sans-serif;
+    font-weight: 200;
+    display: block;
+    margin-top: 65px;
+}
+
+.check-out .product-name{
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: .5px;
+    font-family: sans-serif;
+    display: block;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.check-out .image-selector{
+    height: 134px;
+    width: 214px;
+    display: block;
+    margin-bottom: 40;
+}
+
+.check-out .vcu{
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 19px;
+    font-style: normal;
+    text-transform: uppercase;
+    color: black;
+    font-family: sans-serif;
+    margin-bottom: 4px;
+}
+
+.check-out .vcu2{
+    font-size: 11px;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin: 0;
+    color: #9b9e9f;
+
+}
+
+#border{
+    border: 2px solid black;
+}
+
+.check-out .image-selector .lgs{
+    width: 41px;
+    height: 84px;
+    margin-right: 11px;
+    display: inline-block;
+}
+
+.check-out .image-selector img{
+    width: 37px;
+    height: 69px;
+    margin-bottom: 10px;
+}
+
+.inside{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 90px;
+    height: 650px;
+
+}
+
+.thumb{
+    display: inline-block;
+    width: 16%;
+    position: relative;
+    top: 42px;
+
+}
+
+.bezel{
+    display: inline-block;
+    width: 83%;
+    padding-left: 5px;
+}
+
+.bezel img{
+    width: 459px;
+    height: 654px;
+}
+
+
+.pics{
+    vertical-align: top;
+    background: orange;
+    height: 50;
+    margin: 0 auto;
+    display: block;
+}
+
+.pic2{
+    display: block;
+    margin-top: 27px;
+}
+
+
+.thumb > .pics{
+    display: inline-block;
+    
+}
+
+
+.thumb .pics img{
+    width: 38px;
+    height: 69px;
+    border: 2.5px solid;
+
+}
+
+.thumb .pic2 img{
+    width: 38px;
+    height: 60px;
+}
+
