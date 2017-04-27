@@ -1096,14 +1096,15 @@ img{
     margin: 0 auto;
     max-width: 960px;
     display: block;
+    margin-bottom: 83px;
 }
 
 .check-out .product-number{
     color: #9b9e9f;
-    font-size: 11px;
+    font-size: 13px;
     line-height: 19px;
     font-family: sans-serif;
-    font-weight: 200;
+    font-weight: 400;
     display: block;
     margin-top: 65px;
 }
@@ -1134,6 +1135,7 @@ img{
     color: black;
     font-family: sans-serif;
     margin-bottom: 4px;
+    text-align: center;
 }
 
 .check-out .vcu2{
@@ -1142,7 +1144,21 @@ img{
     text-transform: uppercase;
     margin: 0;
     color: #9b9e9f;
+    text-align: center;
+    margin-bottom: 35px;
+}
 
+.check-out .btn{
+    display: block;
+    padding: 17px;
+    width: 80%;
+    background: black;
+}
+
+.check-out .btn a{
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
 }
 
 #border{
