@@ -72,8 +72,9 @@ img{
 
 
 .main-head img{
+    max-width: 120;
     position: relative;
-    top: 10px; 
+    top: 34px;
 }
 
 .main-head .options {
@@ -1247,7 +1248,7 @@ img{
     background-color: #f7f8f9;
     position: relative;
     margin: 0 auto;
-    max-width: 960px;
+    max-width: 100%;
     display: block;
     background-size: cover;
     margin-bottom: 79px;
@@ -1261,6 +1262,7 @@ img{
     margin-left: auto;
     margin-top: 90px;
     height: 450px;
+    max-width: 960px;
 }
 
 .you-might .inside h2{
@@ -1279,8 +1281,7 @@ img{
 }
 
 .you-might .inside .three{
-    height: 206px;
-    width: 205px;
+    width: 22%;
     display: inline-block;
     margin-right: 16px;
     margin-left: 8px;
@@ -1289,8 +1290,8 @@ img{
 }
 
 .you-might .inside .three img{
-    width: 170px;
-    height: 242px;
+    width: 100%;
+  
 }
 
 
@@ -1318,4 +1319,35 @@ img{
 .sm:hover{
     color: #acb1b4;
     cursor: pointer;
+}
+
+
+.test .inside{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 90px;
+    height: 450px;
+    max-width: 960px;
+}
+
+.test1{
+    width: 22%;
+    display: inline-block;
+}
+
+
+.test1 .b1{
+    width: 100px;
+    height: 100px;
+    background: red;
+    display: inline-block;
+}
+
+
+.test2{
+    display: inline-block;
+    width: 76%;
+    background: blue;
 }
