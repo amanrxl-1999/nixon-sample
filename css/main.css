@@ -1358,7 +1358,8 @@ img{
     max-width: 100%;
     position: relative;
     bottom: 75px;
-    height: 889px;
+    height: 972px;
+    margin-bottom: 20px;
     
 }
 
@@ -1408,7 +1409,7 @@ img{
 
 }
 .m20{
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 .left-side p{
     text-align: left;
@@ -1424,4 +1425,35 @@ img{
     vertical-align: middle;
     font-size: 33px;
     width: 50px;
+}
+
+.the-story a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: black;
+    font-family: sans-serif;
+}
+
+.the-story span{
+    display: block;
+    line-height: 2;
+}
+
+
+.the-story a:hover{
+    color: #acb1b4;
+    text-decoration: none;
+}
+
+.the-story .right-side{
+    width: 100%;
+}
+
+.the-story .right-side img{
+    width: 477px;
+    height: 680px;
+    display: block;
+    position: relative;
+    top: 55px;
 }
