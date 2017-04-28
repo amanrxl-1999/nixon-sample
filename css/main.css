@@ -52,13 +52,13 @@ img{
 
 
 .main-head{
-    background:whitesmoke;
+    background:white;
     height:150px;
     width:100%;
 }
 
 .main-head .container{
-    padding: 30px 60px;
+    padding: 36px 151px;
 }
 
 .main-head .container> li{
@@ -1180,7 +1180,7 @@ img{
 }
 
 .inside{
-    width: 100%;
+    width: 960;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -1251,7 +1251,6 @@ img{
     max-width: 100%;
     display: block;
     background-size: cover;
-    margin-bottom: 79px;
 }
 
 .you-might .inside{
@@ -1261,7 +1260,6 @@ img{
     margin-right: auto;
     margin-left: auto;
     margin-top: 90px;
-    height: 450px;
     max-width: 960px;
 }
 
@@ -1322,32 +1320,108 @@ img{
 }
 
 
-.test .inside{
+.des{
+    text-align: left;
+    font-size:12px;
+    line-height: 22px;
+    color: black;
+    font-family: sans-serif;
+    display: block;
+}
+
+.titles{
+    color: #9b9e9f;
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 19px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    display: block;
+}
+
+.head{
+    margin-top: 0;
+    font-size: 22px;
+    line-height: 26px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+/*---theStory---*/
+
+.the-story{
+    background: #f7f8f9;
+    display: block;
+    max-width: 100%;
+    position: relative;
+    bottom: 75px;
+    height: 889px;
+    
+}
+
+.the-story .inside{
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
     margin-top: 90px;
-    height: 450px;
-    max-width: 960px;
+    max-width: 960px
+    
 }
 
-.test1{
-    width: 22%;
-    display: inline-block;
+.the-story .left-side{
+    width: 100%;
+    padding-right: 7%;
+    margin-top: 55px;
 }
 
-
-.test1 .b1{
-    width: 100px;
-    height: 100px;
-    background: red;
-    display: inline-block;
+.left-side .titles{
+    margin-bottom: 10px;
 }
 
+.left-side .des{
+    margin-bottom:30px;
+    margin-top: 20px;
+}
 
-.test2{
-    display: inline-block;
-    width: 76%;
-    background: blue;
+.left-side h4{
+    color: #9b9e9f;
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 19px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    display: block;
+}
+
+.left-side h3{
+    margin-top: 0;
+    font-size: 20px;
+    line-height: 26px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 600
+
+}
+.m20{
+    margin-bottom: 20px;
+}
+.left-side p{
+    text-align: left;
+    font-size:12px;
+    line-height: 22px;
+    color: black;
+    font-family: sans-serif;
+    display: block;
+
+}
+
+.pdp-attributes-details_icon {
+    vertical-align: middle;
+    font-size: 33px;
+    width: 50px;
 }
