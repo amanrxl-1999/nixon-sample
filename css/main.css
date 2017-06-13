@@ -69,6 +69,11 @@ img{
     list-style: none;
 }
 
+.main-head .onDesktop{
+    width: 200px;
+    display: inline-block;
+}
+
 
 
 .main-head img{
@@ -86,7 +91,7 @@ img{
     top: 38px;
 }
 
-.main-head .options> li{
+.main-head .options  li{
     display: inline-block;
     margin-right: 118px;
 }
@@ -101,6 +106,10 @@ img{
     max-width: 197px;
     position: relative;
     bottom: -36px;
+}
+
+.onMobile{
+    display: none;
 }
 
 
@@ -572,6 +581,7 @@ img{
 
 .footer .container{
     text-align: left;
+    padding-right: 23px;
 }
 
 .footer .text{
@@ -1463,4 +1473,97 @@ img{
     position: relative;
     top: -91px;
     width: 100%
+}
+
+@media screen and (max-width:800px){
+    .main-head {
+        display: block;
+        height: auto;
+    }
+
+    .main-head .container{
+        max-width: 780px;
+        width: 100%;
+        padding: 10 20px;
+        text-align: left;
+
+    }
+
+    .main-head img{
+        display: inline-block;
+        position: relative;
+        top: 20;
+    }
+
+    .main-head .form-group{
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .main-head .onDesktop{
+        display: none;
+    }
+
+    .main-head .options{
+        display: block;
+        position: relative;
+        top: 5px;
+        width: 100%;
+        max-width: 780px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .main-head .options li{
+        font-size: 13px;
+        margin-right: 97px;
+        margin-bottom: 30px;
+        font-weight: 600;
+        letter-spacing: .5;
+    }
+
+    .onMobile{
+        display: inline-block;
+        margin-left: 417px;
+        position: relative;
+        bottom: 33px;
+    }
+
+    .nixon-image{
+        display: block;
+        height: auto;
+        max-width: 800px;
+        width: 100%;
+    }
+
+    .first-section{
+        display: block;
+        text-align: center;
+    }
+
+    .first-section h3{
+        display: block;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    .first-section .btn{
+        display: block;
+        width: 200px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .first-row {
+        display: block;
+        height: auto;
+    }
+
+
+    .first-row .container{
+        max-width: 780px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
 }
