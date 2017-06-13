@@ -1566,4 +1566,44 @@ img{
         margin: 0 auto;
     }
 
+    .second-section{
+        display: block;
+        height: auto;
+    }
+
+    .second-section .container{
+        max-width: 780px;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .second-section h2{
+        display: block;
+    }
+    .second-section p{
+        display: block;
+        max-width: 506px;
+        margin: 0 auto;
+        width: 100%;
+        font-size: 13px;
+        font-weight: 500;
+        letter-spacing: .2;
+    }
+
+    .second-row {
+        display: block;
+        height: auto;
+    }
+
+    .second-row .container{
+        max-width: 780px;
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+
+
+
 }
