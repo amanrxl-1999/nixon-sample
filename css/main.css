@@ -1561,6 +1561,10 @@ img{
         height: auto;
     }
 
+    .first-row .thumbnail{
+        background-color: #f7f8f9;
+    }
+
 
     .first-row .container{
         max-width: 780px;
@@ -1675,12 +1679,17 @@ img{
     .third-section{
         display: block;
         height: auto;
+        margin-bottom: 30px;
     }
 
     .third-section .container{
         max-width: 780px;
         width: 100%;
         margin: 0 auto;
+    }
+
+    .third-section p{
+        display: block;
     }
 
     .fourth-row{
@@ -1696,16 +1705,24 @@ img{
         width: 100%;
         max-width: 780px;
         margin: 0 auto;
+        padding: 0;
+    }
+
+    .fourth-row .ssml{
+        display: inline-block;
+        width: 160px;
+        height: 200px;
     }
 
     #last{
         width: 324px;
         object-fit: cover;
+        height: 124px;
     }
 
     .fourth-row .thumbnail{
         display: inline-block;
-        width: 300;
+        width: 133spx;
     }
 
     .fourth-row img{
@@ -1722,6 +1739,15 @@ img{
         max-width: 780px;
         width: 100%;
         margin: 0 auto;
+    }
+
+    .five-row{
+        display: block;
+        height: auto;
+    }
+
+    .five-row .nxt{
+        display: inline-block;
     }
 
     .small-text{
