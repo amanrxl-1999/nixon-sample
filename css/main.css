@@ -459,8 +459,6 @@ img{
     font-size: 13px;
     color: #acb1b4;
     margin-top: 10px;
-    padding-left: 542px;
-    padding-right: 545px;
     font-family: sans-serif;
     font-weight: 700;
     margin-bottom: 30px;
@@ -628,10 +626,9 @@ img{
     font-family: 400;
     min-width: 320px;
     text-align: center;
-    position: relative;
-    left: 192px;
-    top: 135px;
-    padding: 0px 30;
+    margin: 0 auto;
+    margin-top: 171px;
+    font-weight: 800;
 }
 
 
@@ -1594,11 +1591,18 @@ img{
         font-size: 13px;
         font-weight: 700;
         letter-spacing: .2;
+        margin-bottom: 44px;
     }
 
     .second-row {
         display: block;
         height: auto;
+    }
+
+    .second-row .slt{
+        display: inline-block;
+        width: 289px;
+        height: 200px;
     }
 
     .second-row .container{
@@ -1706,6 +1710,66 @@ img{
 
     .fourth-row img{
         display: inline-block;
+    }
+
+    .fourth-section {
+        display: block;
+        height: auto;
+    }
+
+
+    .fourth-section .container{
+        max-width: 780px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .small-text{
+        font-weight: 600;
+    }
+
+
+    .pre-footer{
+        display: block;
+        max-width: 780px;
+        width: 100%;
+        padding-left: 57px;
+    }
+
+    .footer{
+        display:block;
+        height: auto;
+    }
+
+    .footer .container{
+        max-width: 780px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+    .foot-head{
+        display: block;
+        padding-bottom: 0;
+        margin: 0;
+        text-align: left;
+        font-weight: 600;
+    }
+
+    .footer .in{
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .foot-body {
+        display: block;
+    }
+
+    .foot-body .container{
+        max-width: 780px;
+        width: 100%;
+        margin: 0 auto;
     }
 
 
