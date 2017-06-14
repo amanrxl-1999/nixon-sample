@@ -1824,8 +1824,26 @@ img{
         
     }
 
+    .red .container{
+        max-width: 780px;
+        width: 100%;
+
+    }
+
     .red .list{
         display: inline-block;
+    }
+
+    .red .rsml{
+        display: inline-block;
+        vertical-align: top;
+        width: 60%;
+        padding-left: 47px;
+    }
+
+    .red .mt20{
+        display: inline-block;
+        width: 
     }
 
 
