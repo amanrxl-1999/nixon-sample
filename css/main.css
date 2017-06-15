@@ -686,6 +686,15 @@ img{
     text-align: center;
 }
 
+.page4m{
+    display: none;
+}
+
+.main-head .page4d{
+    width: 200px;
+    display: inline-block;
+}
+
 .breadcrumb .link{
     text-decoration: none;
     text-transform: uppercase;
@@ -1845,6 +1854,150 @@ img{
         display: inline-block;
         width: 
     }
+
+    .main-head .mv4{
+        display: block;
+        position: relative;
+        left: 20;
+    }
+
+     .main-head .page4d{
+        display: none;
+    }
+
+    .main-head .page4m{
+        display: inline-block;
+        margin-left: 401px;
+        position: relative;
+        bottom: 34px;
+    }
+
+    .breadcrumb{
+        display: block;
+        height: auto;
+    }
+
+    #myCarousel{
+        height: auto;
+    }
+
+    .check-out{
+        display: block;
+        height: auto;
+    }
+
+    .check-out .inside{
+        max-width: 780px;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 80px;
+    }
+
+    .check-out .chc{
+        max-height: 780px;
+        width: 100%;
+    }
+
+    .check-out .resLef{
+        width: 55%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .check-out .resP{
+        width: 300px;
+    }
+
+    .check-out .resP img{
+        width: 353;
+        height: 512px;
+        object-fit: cover;
+    }
+
+    .check-out .resRig{
+        display: inline-block;
+        width: 35%;
+        margin-left: 56px;
+    }
+
+    .check-out .image-selector{
+        margin-bottom: 8px;
+    }
+
+    .check-out .product-name{
+        display: block;
+        font-size: 
+    }
+
+    .check-out .image-selector .lgs{
+        height: 65px;
+    }
+
+    .check-out .image-selector img{
+        height: 55px;
+        margin-bottom: 2px;
+    }
+
+    .check-out hr{
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .you-might{
+        display: block;
+        height: auto;
+        margin-bottom: 88px;
+    }
+
+    .you-might .inside{
+        max-width: 780px;
+        width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .you-might .inside .three{
+        width: 20%;
+        margin-top: 20px;
+        vertical-align: top;
+        margin-bottom: 142px;
+    }
+
+    .you-might .inside .three img{
+        height: 182px;
+        object-fit: cover;
+    }
+
+    .the-story{
+        display: block;
+        height: 1169px;
+        margin-top: 20px;
+    }
+
+    .the-story .inside{
+        max-width: 780px;
+        width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .the-story .left-side{
+        margin-top: 96px;
+        padding-left: 17px;
+    }
+
+    .the-story .tsLef{
+        width: 35%;
+        display: inline-block;
+        margin-top: 0;
+    }
+
+    .the-story .tsRig{
+        width: 55%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
 
 
 
