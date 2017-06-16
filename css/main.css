@@ -2362,6 +2362,35 @@ img{
     display: block;
 }
 
+.check-out{
+    display: block;
+    height: auto;
+}
+
+.check-out .inside{
+    height: auto;
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.check-out .onDesktop{
+    display: none;
+}
+
+.check-out .onMobile{
+    display: block;
+    margin: 0 auto;
+}
+
+.check-out .onMobile img{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+}
+
+
+
 
 
 
