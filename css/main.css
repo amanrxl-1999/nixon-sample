@@ -2004,15 +2004,113 @@ img{
         width: 180px;
         vertical-align: top;
     }
+}
+
+
+@media screen and (max-width:500px){
+    .main-head{
+        display: block;
+        height: auto;
+    }
+
+    .main-head .container{
+        max-width: 480px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-head .form-group{
+        display: none;
+    }
+
+    .main-head .options{
+        display: none;
+    }
+
+    .main-head img{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30;
+    }
+
+    .onMobile{
+        display: none;
+    }
+
+
+    .nixon-image{
+        display: block;
+        height: auto;
+        max-width: 480px;
+        width: 100%;    
+        margin-bottom: 0;
+    }
+
+    .first-section{
+        display: block;
+        height: auto;
+    }
+
+    .first-section .container{
+        max-width:480px;
+        width: 100%;
+        height: auto;
+    }
+
+    .second-section{
+        display: block;
+        height: auto;
+    }
+
+    .second-section .container{
+        max-width: 480px;
+        width: 100%;
+        height: auto;
+    }
+
+    .second-section h2{
+        display: block;
+    }
+
+    .second-section p{
+        display: block;
+        margin: 0 auto;
+        padding: 0 50px;
+    }
+
+    .second-row{
+        display: block;
+        height: auto;
+    }
+
+    .second-row .container{
+        max-width: 480px;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
 
 
 
+    .second-row .slt{
+        display: inline-block;
+        margin: 0 auto;
+        height: 330px;
+        width: 200;
+    }
 
+    .second-row h4{
+        font-weight: 600;
+    }
 
+    .main-split{
+        display: block;
+        height: auto;
+    }
 
-
-
-
-
-
+    .main-split .container{
+        max-width: 480px;
+        width: 100%;
+        padding: 0;
+    }
 }
