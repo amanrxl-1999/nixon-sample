@@ -2113,4 +2113,149 @@ img{
         width: 100%;
         padding: 0;
     }
+
+    .third-row{
+        display: block;
+        height: auto;
+    }
+
+    .third-row .container{
+        max-width: 480px;
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    .third-row .row{
+        max-width: 500px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .third-row .alw{
+        padding: 0;
+        display: block;
+    }
+
+    .third-row .watch{
+        max-width: 500px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .third-section{
+        display: block;
+        height: auto;
+    }
+
+    .third-section .container{
+        max-width: 480px;
+        width: 100%;
+        height: auto;
+    }
+
+    .fourth-row{
+        display: block;
+        height: auto;
+    }
+
+    .fourth-row .container{
+        max-width: 480px;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .fourth-section{
+        display: block;
+        height: auto;
+    }
+
+    .fourth-section .container{
+        max-width: 480px;
+        width: 100%;
+        height: auto;
+    }
+
+
+    .five-row{
+        display: block;
+        height: auto;
+    }
+
+    .five-row .container{
+        max-width: 480px;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+        margin-bottom: 3px;
+    }
+
+    .five-row .nxt{
+        display: inline-block;
+        width: 200px;
+    }
+
+    .five-row .container img{
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        right: 22px;
+    }
+
+    .pre-footer{
+        display: block;
+        height: auto;
+    }
+
+    .pre-footer .container{
+        max-width: 480px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .pre-footer .container .s500{
+        margin: 0 auto;
+    }
+
+    .pre-footer .container .email-sign-up{
+        display: block;
+        margin: 0;
+        position: relative;
+        top: 20;
+        right: 20;
+    }
+
+    .footer{
+        display: block;
+        height: auto;
+    }
+
+    .footer .container{
+        max-width: 480px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .foot-body{
+        display: block;
+    }
+
+    .foot-body .container{
+        max-width: 480px;
+        width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .foot-body .foot-text{
+        margin: 0 auto;
+        display: block;
+        margin-top: 75px;
+        color: black;
+    }
+
+
 }
