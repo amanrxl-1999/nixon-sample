@@ -1048,11 +1048,9 @@ img{
 }
 
 .yslide img{
-    display: block;
+    display: inline-block;
     position: relative;
-    width: 159px;
-    height: 229px;
-    left: 83px;
+    left: 30px;
 }
 
 .yslide .sview{
@@ -2256,6 +2254,116 @@ img{
         margin-top: 75px;
         color: black;
     }
+
+    .brown-row{
+        display: block;
+        height: auto;
+    }
+
+    .brown-row .container{
+        max-width: 480px;
+        width: 100%;
+        height: auto;
+    }
+
+    .brown-row .text-back{
+        display: none;
+    }
+
+    .brown-row .nixon{
+        height: 210px;
+    }
+
+    .brown-row .onMobile{
+        display: none;
+    }
+    .breadcrumb {
+    display: block;
+    height: auto;
+}
+
+.breadcrumb .container{
+    max-width: 480px;
+    width: 100%;
+}
+
+.red{
+    display: block;
+    height: auto;
+}
+
+.red .container{
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.red .mt20{
+    display: none;
+}
+
+.red .rsml{
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.red .box{
+    display: block;
+    max-width: 480px;
+    width: 100%;
+}
+
+.red .box img{
+    height: 407px;
+    width: 255px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+}
+
+.yslide{
+    display: block;
+    height: auto;
+    max-width: 480px;
+    width: 100%;
+}
+
+.yslide img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 68px;
+    position: relative;
+    left: -12px;
+}
+
+.yslide .sview{
+    display: block;
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+}
+
+.yslide .price-text{
+    display: block;
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.carousel-inner{
+    display: block;
+}
+
+
+
 
 
 }
