@@ -2404,12 +2404,87 @@ img{
 .check-out .onMobile{
     display: block;
     margin: 0 auto;
+    width: 300;
 }
 
 .check-out .onMobile img{
     display: inline-block;
     height: 60px;
     width: 60px;
+}
+
+.check-out .onMobile .thumb{
+    display: block;
+    max-width: 480px;
+    margin: 0 auto;
+    left: 0;
+    width: 100%;
+    margin-bottom: 39;
+    position: relative;
+    left: 42px;
+}
+
+.check-out .onMobile .thumb .pics{
+    display: inline-block; 
+    margin-left: 30;
+}
+
+.check-out .pic2{
+    display: inline-block;
+    margin: 0;
+}
+
+.check-out .resRig{
+    display: block;
+    max-width: 480px;
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+}
+
+.check-out .resLef{
+    max-width: 480px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.check-out .resP{
+    margin: 0 auto;
+}
+
+.check-out .resP img{
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    left: 32px;
+}
+
+.check-out .product-number{
+    margin-top: 10px;
+    display: block;
+}
+
+.check-out .product-name{
+    display: block;
+    margin: 0 auto;
+    font-size: 11px;
+}
+
+.check-out .image-selector{
+    display: block;
+    max-width: 480px;
+    width: 100%;
+    height: auto;
+}
+
+.check-out .btn{
+    margin: 0 auto;
+}
+
+.you-might{
+    display: block;
+    height: auto;
 }
 
 
