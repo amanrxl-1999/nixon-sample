@@ -1127,6 +1127,22 @@ img{
     margin-top: 65px;
 }
 
+.check-out .onDesktop{
+    display: inline-block;
+    width: 100px;
+}
+
+.check-out .onDesktop .pics{
+    display: block;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.check-out img{
+    width: 50px;
+    height: 100px;
+}
+
 .check-out .product-name{
     font-size: 28px;
     line-height: 34px;
@@ -1217,8 +1233,8 @@ img{
 
 .bezel{
     display: inline-block;
-    width: 83%;
     padding-left: 5px;
+    vertical-align: top;
 }
 
 .bezel img{
@@ -1903,13 +1919,20 @@ img{
     }
 
     .check-out .resP{
-        width: 300px;
+        width: 62%;
+    }
+
+    .check-out .onMobile{
+        display: none;
     }
 
     .check-out .resP img{
-        width: 353;
+        width: 338px;
         height: 512px;
         object-fit: cover;
+        margin-left: 11px;
+        vertical-align: top;
+        display: inline-block;
     }
 
     .check-out .resRig{
