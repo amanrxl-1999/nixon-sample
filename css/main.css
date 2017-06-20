@@ -2487,6 +2487,94 @@ img{
     height: auto;
 }
 
+.you-might .inside{
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 27px;
+    text-align: center;
+}
+
+.you-might .inside .three{
+    display: inline-block;
+    width: 40%;
+    object-fit: cover;
+}
+
+.the-story{
+    display: block;
+    height: auto;
+}
+
+.the-story .inside{
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.the-story .tsLef{
+    display: block;
+    max-width: 480px;
+    width: 100%;
+}
+
+.the-story .left-side{
+    display: block;
+    width: 100%;
+}
+
+.the-story .des{
+    display: block;
+    font-weight: 600;
+}
+
+.the-story p{
+    display: block;
+    font-weight: 600;
+}
+
+.the-story .onMobile{
+    display: none;
+}
+
+.the-story .right-side{
+    display: block;
+    max-width: 480px;
+    width: 100%;
+    height: auto;
+}
+
+.the-story .tsRig{
+    display: block;
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.the-story .right-side img{
+    display: block;
+    width: 411px;
+    height: 628px;
+    vertical-align: top;
+    top: 0;
+    object-fit: cover;
+    margin-bottom: 57px;
+}
+
+.pre-footer{
+    display: block;
+    height: auto;
+}
+
+.pre-footer .container{
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
 
 
 
