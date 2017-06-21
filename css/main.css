@@ -2566,6 +2566,8 @@ img{
 .pre-footer{
     display: block;
     height: auto;
+    padding: 0;
+    margin: 0 auto;
 }
 
 .pre-footer .container{
@@ -2573,6 +2575,22 @@ img{
     width: 100%;
     margin: 0 auto;
     padding: 0;
+}
+
+.pre-footer .btn{
+    display: block;
+    position: relative;
+    font-size: 14px;
+    max-width: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    left: 354px;
+    bottom: 38px;
+    height: 44px;
+}
+
+.pre-footer .mvbs{
+    display: inline-block;
 }
 
 
