@@ -2020,6 +2020,10 @@ img{
         vertical-align: top;
     }
 
+    .the-story .onMobile{
+        display: none;
+    }
+
     .footer .lstf{
         display: inline-block;
         width: 180px;
