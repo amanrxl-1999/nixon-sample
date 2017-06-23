@@ -38,6 +38,8 @@ img{
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
+    position: relative;
+    top: 2px;
 }
 
 .nav-pills >li>a{
